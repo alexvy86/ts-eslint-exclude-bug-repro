@@ -1,0 +1,1 @@
+./test.sh "./.eslintrc.js"
