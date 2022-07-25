@@ -1,4 +1,4 @@
-import { myConst } from '../myModule';
+import { myConst } from '../src/myModule';
 
 const myBool = "";
 
