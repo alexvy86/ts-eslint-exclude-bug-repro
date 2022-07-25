@@ -8,7 +8,7 @@ echo "Linting before build";
 npx eslint --config $CONFIG $FILE_TO_LINT;
 
 echo "Building";
-npx tsc --project tsconfig.json;
+npx tsc --project src/tsconfig.json;
 
 echo "Linting after build";
 npx eslint --config $CONFIG $FILE_TO_LINT;
